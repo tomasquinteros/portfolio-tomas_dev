@@ -17,7 +17,7 @@ export default function Header(images) {
   })
   const headerComponentHTML = document.querySelector('header')
   const headerContent = `
-    <div class="flex justify-between items-center md:px-[40px] md:py-[20px] lg:px-[80px]">
+    <div class="m-auto max-w-[960px] flex justify-between items-center">
       <img class="w-[6rem]" src='${imagesHeaders.logoPortfolio}' alt='logo-portfolio'></img>
       <img id='menu' class="md:hidden" src='${imagesHeaders.menuIcon}' alt="menu">
       <nav class='hidden md:block flex flex-col'>

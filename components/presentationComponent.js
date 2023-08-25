@@ -7,7 +7,7 @@ export const PresentationComponent = () => {
 
     const {title, description} = data.fields
     const presentationContent = `
-    <div id="container" class="lg:max-w-[960px] flex flex-col md:flex-row md:items-center justify-between gap-[30px]">
+    <div id="container" class="max-w-[960px] flex flex-col md:flex-row md:items-center justify-between gap-[30px]">
         <div class='flex flex-col gap-4'>
           <h2 class="text-3xl font-bold">${title}</h2>
           <p class="font-normal text-xl text-[#EEEEEEBF]">${description}</p>

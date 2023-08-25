@@ -27,7 +27,7 @@ async function FormSend() {
 export const FormComponent = (images) => {
   const image = images.find(image => image.fields.title === 'send-icon')
   const formSectionElement = document.getElementById('form-section')
-  const formSectionContent = `<div id="container" class="w-screen p-4 lg:max-w-[960px]  md:flex md:justify-between">
+  const formSectionContent = `<div id="container" class="w-screen p-[24px] md:p-0 lg:max-w-[960px]  md:flex md:justify-between">
   <h2 class="text-4xl font-bold text-center py-[39px]">Write me</h2>
   <form class="flex flex-col gap-[25px] mb-32 md:w-2/4">
   <ul class="flex flex-col justify-start gap-8 font-bold md:grid md:grid-cols-2 md:gap-4">

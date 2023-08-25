@@ -1,0 +1,20 @@
+<header class="flex justify-between">
+      <h2 class="text-4xl">TQ</h2>
+      <nav>
+        <img class="md:hidden" src="assets/menu.png" alt="menu">
+        <ul class="hidden toggle-menu">
+          <div>
+            <img src="assets/close-menu.png" alt="close-menu">
+          </div>
+          <li>
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="./portfolio.html">Services</a>
+          </li>
+          <li>
+            <a href="./portfolio.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
